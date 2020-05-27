@@ -1,4 +1,4 @@
-# react-native-react-native-contacts-sort-order
+# react-native-contacts-sort-order
 
 ## Getting started
 
