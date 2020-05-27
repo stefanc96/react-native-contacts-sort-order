@@ -2,16 +2,16 @@
 
 ## Getting started
 
-`$ npm install react-native-react-native-contacts-sort-order --save`
+`$ npm install react-native-contacts-sort-order --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-react-native-contacts-sort-order`
+`$ react-native link react-native-contacts-sort-order`
 
 ## Usage
 ```javascript
-import ContactsSortOrder from 'react-native-react-native-contacts-sort-order';
+import ContactsSortOrder from 'react-native-contacts-sort-order';
 
-ContactsSortOrder.getSortOrder()
-    .then(sortOrder => console.log(sortOrder));
+ContactsSortOrder.getSortOrder(sortOrder => console.log(sortOrder));
+
 ```

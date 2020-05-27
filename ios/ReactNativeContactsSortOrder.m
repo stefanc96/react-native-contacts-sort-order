@@ -5,15 +5,15 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(getContactsSortOrder: callback:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(getContactsSortOrder: (RCTResponseSenderBlock)callback)
 {
     CNContactSortOrder sortOrder = CNContactsUserDefaults.sharedDefaults.sortOrder;
-    
+
     NSString *const GIVEN_NAME = @"GivenName";
     NSString *const FAMILY_NAME = @"FamilyName";
     NSString *const DEFAULT = @"Default";
     NSString *order;
-    
+
     switch (sortOrder) {
       case CNContactSortOrderGivenName:
         order = GIVEN_NAME;
@@ -25,7 +25,7 @@ RCT_EXPORT_METHOD(getContactsSortOrder: callback:(RCTResponseSenderBlock)callbac
         order = DEFAULT;
         break;
     }
-    callback(@[[order]]);
+    callback(@[order]);
 }
 
 @end
