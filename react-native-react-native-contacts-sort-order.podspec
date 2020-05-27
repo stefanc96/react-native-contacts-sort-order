@@ -3,20 +3,20 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
-  s.name         = "react-native-react-native-contacts-sort-order"
+  s.name         = "react-native-contacts-sort-order"
   s.version      = package["version"]
   s.summary      = package["description"]
   s.description  = <<-DESC
-                  react-native-react-native-contacts-sort-order
+                  react-native-contacts-sort-order
                    DESC
-  s.homepage     = "https://github.com/github_account/react-native-react-native-contacts-sort-order"
+  s.homepage     = "https://github.com/stefanc96/react-native-contacts-sort-order"
   # brief license entry:
   s.license      = "MIT"
   # optional - use expanded license entry instead:
   # s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/github_account/react-native-react-native-contacts-sort-order.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/stefanc96/react-native-contacts-sort-order", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true

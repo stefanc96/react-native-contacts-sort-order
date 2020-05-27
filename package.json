@@ -1,7 +1,7 @@
 {
   "name": "react-native-contacts-sort-order",
   "title": "React Native Contacts Sort Order",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A package used to fetch the default user preference regarding contacts display",
   "main": "index.js",
   "scripts": {
