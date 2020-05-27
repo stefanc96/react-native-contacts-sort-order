@@ -1,16 +1,16 @@
 {
-  "name": "react-native-react-native-contacts-sort-order",
+  "name": "react-native-contacts-sort-order",
   "title": "React Native React Native Contacts Sort Order",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.1",
+  "description": "A package used to fetch the default user preference regarding contacts display",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-react-native-contacts-sort-order.git",
-    "baseUrl": "https://github.com/github_account/react-native-react-native-contacts-sort-order"
+    "url": "git+https://github.com/stefanc96/react-native-contacts-sort-order",
+    "baseUrl": "https://github.com/stefanc96/react-native-contacts-sort-order"
   },
   "keywords": [
     "react-native"

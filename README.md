@@ -10,8 +10,8 @@
 
 ## Usage
 ```javascript
-import ReactNativeContactsSortOrder from 'react-native-react-native-contacts-sort-order';
+import ContactsSortOrder from 'react-native-react-native-contacts-sort-order';
 
-// TODO: What to do with the module?
-ReactNativeContactsSortOrder;
+ContactsSortOrder.getSortOrder()
+    .then(sortOrder => console.log(sortOrder));
 ```
