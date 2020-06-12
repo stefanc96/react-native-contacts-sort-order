@@ -14,4 +14,5 @@ import ContactsSortOrder from 'react-native-contacts-sort-order';
 
 ContactsSortOrder.getSortOrder(sortOrder => console.log(sortOrder));
 
+ContactsSortOrder.getDisplayOrder(displayOrder => console.log(displayOrder));
 ```
